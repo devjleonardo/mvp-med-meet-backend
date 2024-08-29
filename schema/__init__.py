@@ -1,0 +1,4 @@
+from schema.medico import CadastrarHorarioSchema, CadastrarMedicoSchema, MedicoBuscaSchema, VisualizarMedicoSchema, ListagemMedicosSchema, VisualizarHorarioSchema, VisualizarContagemMedicosSchema, retornar_medico, retornar_horario, retornar_agendamento
+from schema.paciente import CadastrarPacienteSchema, VisualizarPacienteSchema, ListagemPacientesSchema, VisualizarContagemPacientesSchema, retornar_paciente
+from schema.agendamento import CadastrarAgendamentoSchema, VisualizarAgendamentoSchema, ListagemAgendamentosSchema, VisualizarContagemAgendamentosSchema, retornar_agendamento
+from schema.error import ErrorSchema
